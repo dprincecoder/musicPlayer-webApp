@@ -11,10 +11,6 @@ let currentTimeOfSong = document.querySelector("#currentTime-of-song");
 let durationOfSong = document.querySelector("#duration-of-song");
 let video = document.querySelector("#video");
 
-video.addEventListener('timeupdate', function (e) {
-    const { duration, currentTime } = e.srcElement;
-    console.log(Math.floor(duration / 60))
-})
 
 //songs titles
 const songs = ["Celine-dion", "emeli-sande", "Eminem", "HouseOnFire"];
