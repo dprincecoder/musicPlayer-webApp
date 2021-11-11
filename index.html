@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./all.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <hi>Music Player</hi>
+   
+    
+    <div class="music-container">
+        <div class="music-info">
+            <h4 id="title"></h4>
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+            <div class="song-time">
+                <div id="currentTime-of-song">00:00</div>
+                /
+                <div id="duration-of-song">00:00</div>
+            </div>
+        </div>
+
+        <audio src="/HouseOnFire.mp3 " id="audio"></audio>
+
+        <div class="img-container">
+            <img src="/wal21.jpeg" alt="music" id="cover">
+        </div>
+        
+        <div class="navigation">
+        <button id="prev" class="action-btn">
+            <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+            <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+            <i class="fas fa-forward"></i>
+        </button>
+    </div>
+</div>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
